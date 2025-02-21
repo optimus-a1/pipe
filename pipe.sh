@@ -24,7 +24,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # 提示用户输入内存、存储、钱包地址
-echo '请输入内存大小 (单位 MB)：'
+echo '请输入内存大小 (单位 GB)：'
 read ram_size
 echo '请输入存储大小 (单位 GB)：'
 read disk_size
